@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("https://i.pinimg.com/originals/3b/e2/39/3be2392e64c853a78cdf38fb54e542b9.jpg" ),
+                    url("https://cdn.pixabay.com/photo/2020/07/27/14/34/stars-5442598_1280.jpg");
+
+  background-size: 400px 500px , 700px;/* if you give width height only once it will be applied to both images like 400px 400px
+                           can define the size of each image using the syntax: width height with comma
+                           can give value  like 400px, cover 
+                          auto - size is same as image 
+                        cover - image will take the size of element in which it is define
+                        contain - mainly used with article
+                        you can give any value in px or % */
+
+
+  background-repeat: no-repeat;  /*repeat-x repeat vetically
+                                  repeat-y : repeat horizontally
+                                  no-repeat : image will not repeat
+                                  space : image will be repeated but there will be space between them
+                                  repeat - by default the repeat */
+
+  background-position: 0% 0%, 100% 0%;/*defining the position of each image  x-axis and y-axis by using comma can define for many images
+                            0-> left   100->right 50->center
+                            left, left bottom, right, center center etc. like value can pass to it*/                                  
+}
